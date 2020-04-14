@@ -1,0 +1,75 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: "century gothic";
+    box-sizing: border-box;
+    
+}
+header, .submt-section
+{
+    text-align: center;
+}
+
+.form-heading
+{
+    color:#6B5ACD;
+    text-decoration: underline;
+    text-transform:uppercase;
+}
+
+.form-section
+{
+    background-color: #6B5ACD;
+    margin: 0 30px 0px 30px;
+    font-size: 20px;
+    color:white;
+}
+
+tr{
+    padding-top: 30px;
+}
+
+
+.text-box
+{
+    font-size: 20px;
+    padding: 5px;
+}
+#btns
+{
+    text-align: center;
+}
+
+
+#submit-btn, #reset-btn
+{
+    font-size: 18px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#thank-you-heading
+{
+    font-size: 35px;
+    color:#59BB05;
+}   
+
+
+table
+{
+    overflow: scroll;
+}
+
+.heading
+{
+    font-size: 35px;
+    color:rgb(153, 90, 205);
+    line-height: 60px;
+}
+
+a
+{
+    font-size: 50px;
+}
