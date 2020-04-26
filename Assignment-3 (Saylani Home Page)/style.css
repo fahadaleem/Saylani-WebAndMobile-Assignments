@@ -1,0 +1,802 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    font-weight: 300;
+}
+
+#main-nav
+{
+   display: flex;
+   justify-content: space-around;
+   background-color: #376DC3;
+   flex: wrap;
+   height: 8vh;
+   padding-top: 10px;
+}
+
+#socialMedia-icons
+{
+    color:white;
+}
+
+#qoute
+{
+    font-size: 17px;
+    color:white;
+    font-weight: 300;
+}
+
+.icons
+{
+    margin: 5px;
+    cursor: pointer;
+}
+.donate
+{
+    color:green;
+    border: 1px solid green;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(243, 239, 239, 0.767);
+    flex-wrap: wrap;
+}
+
+
+ul
+{
+    list-style: none;
+}
+
+
+
+
+ul li
+{
+    display: inline-block;
+    margin-top: 3%;
+    padding: 5px 15px 5px 15px;
+    font-weight: 300;
+}
+
+#select
+{
+    background-color: #376DC3;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    color:white;
+}
+
+
+
+li:hover
+{
+    background-color: #376DC3;
+    border-radius: 20px;
+    color:white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#news-taglines
+{
+    background-color: #376DC3;
+    max-width: 90%;
+    min-width: 350px;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#date
+{
+    color:rgb(31, 221, 31);
+}
+
+#introduction
+{
+    background-color: #F7F8FA;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#intro-heading, #service-heading, #gallery-heading
+{
+    text-align: center;
+    font-size: 45px;
+    color:#8CC444;
+    font-weight: 500;
+    transition: .5s;
+}
+
+#intro-heading:hover, #gallery-heading:hover, #service-heading:hover
+{
+    transform: translate(0px,-10px);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+#service-heading
+{
+    margin-top: 5%;
+}
+
+#intro, #image
+{
+    color:#376DC3;
+    font-weight: 500;
+
+}
+
+#line::before,
+#line::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #8CC444;
+    width: 2rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+
+#intro-description
+{
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+#estimate-numbers
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #376DC3;
+    flex-wrap: wrap;
+
+}
+
+.services
+{
+    text-align: center;
+    color:white;
+}
+.numbers
+{
+    font-size: 50px;   
+}
+.color-green
+{
+    color:#8CC444;
+}
+
+#services-section
+{
+    text-align: center;
+    color:#376DC3;
+    background-color: #F7F8FA;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+#container, #container2
+{
+    display: flex;
+    justify-content:space-around;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 1%;
+    flex-wrap: wrap;
+}
+
+#sadkah-service
+{
+    padding:40px 100px 40px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+#sadkah-service:hover, #welfare-service:hover, #medical-service:hover, #dastarkhawan-service:hover, #roplant-service:hover, #education-service:hover
+{
+    transform: translate(0,20px);
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #eeecec;
+}
+
+#welfare-service
+{
+    padding: 40px 120px 40px 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+
+
+}
+
+#medical-service 
+{
+    padding: 40px 120px 40px 120px;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+
+}
+
+#dastarkhawan-service
+{
+    padding:40px 100px 40px 110px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+
+#welfare-heading, #welfare-logo
+{
+    margin-right: 20px;
+}
+
+#roplant-service
+{
+    padding: 40px 130px 40px 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+#education-service
+{
+    padding: 40px 110px 40px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 30px;
+    background-color: white;
+}
+
+#container2
+{
+    margin-top: 50px;
+}
+
+
+#upcoming-projects
+{
+    display: flex;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+#mission-projects
+{
+    max-width: 60%;
+    padding-left: 5%;
+}
+#upcoming-events
+{
+    width: 40%;
+    padding: 0px 20px 20px 20px;
+    min-width: 300px;
+}
+
+.line
+{
+    width: 10%;
+    height: 2px;
+    background-color: #8CC444;
+    border: none;
+}
+#mission-projects-heading
+{
+    font-weight: 600;
+    color:#376DC3;
+    font-size: 30px;
+}
+
+.projects
+{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    
+}
+#news
+{
+    margin-top: 20px;
+    width: 70%;
+}
+.project-div
+{
+    padding: 15px 100px 15px 30px;
+    background-color: #F7F8FA;
+    border: 1px solid rgb(221, 222, 224);
+    margin-right: 20px;
+}
+
+.project-div:hover
+{
+    transform: translate(0px,10px);
+    cursor: pointer;
+    transition: .5s;
+    background-color: #eeecec;
+}
+
+.hepatits
+{
+    padding-right: 200px;
+}
+.housing
+{
+    padding-right: 130px;
+}
+
+.project-name
+{
+    position: relative;
+    bottom: 8px;
+    left: 15px;
+    font-weight: 400;
+    color:#376DC3;
+}
+
+.it
+{
+    padding-right: 185px;
+}
+
+.tharparkar
+{
+    padding-right: 170px;
+}
+
+#gallery
+{
+    padding-top: 5%;
+    text-align: center;
+    width: 90%;
+    margin: 5px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+
+.images
+{
+    height: 150px;
+}
+
+.gallery-image
+{
+    display: block;
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+.fade
+{
+    position: relative;
+  top: -365px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  padding-top: 30%;
+  padding-bottom: 100px;
+  color:black;
+  font-size: 30px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+
+
+.images:hover .fade
+{
+    opacity: 0.8;
+    transform: translate(0px,200px);
+    transition: 0.7s;
+    visibility: visible;
+}
+
+
+#image-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+footer
+{
+    background-color: #25272E;
+    color:white;
+    padding: 5%;
+}
+
+.phone-icons
+{
+    color: #8CC444;
+}
+
+#social-icons
+{
+}
+
+.footer-icons
+{
+    background-color: #376DC3;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.footer-icons:hover
+{
+    background-color: #eeecec;
+    color:black;
+}
+
+.fa-facebook
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#footer-container
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+#hr-line
+{
+    width: 50%;
+    background-color: #8CC444;
+    height: 2px;
+    padding: 0.5px;
+    border: none;
+}
+
+#useful-links
+{
+    margin-right: 100px;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+
+
+#connect
+{
+    font-size: 20px;
+}
+
+#end
+{
+    background-color: #376DC3;
+    padding: 10px;
+}
+
+#end-para
+{
+    width: 73%;
+    margin: 0 auto;
+    color:white;
+    font-size: 12px;
+}
+
+@media screen and (max-width:768px)
+{
+html,body{
+    overflow-x: hidden;
+}
+
+    #main-nav
+    {
+        display: none;
+    }
+    ul li
+    {
+        display: block;
+        text-align: left;
+        max-width: 100%;
+        min-width: 340px;
+    }
+    .services
+    {
+        display: block;
+        width: 100%;
+    }
+    #service-heading
+    {
+        font-size: 7.5vw;
+    }
+
+    #sadkah-service, #welfare-service, #dastarkhawan-service, #roplant-service, #education-service, #medical-service
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+   
+   #medical-service, #education-service
+   {
+
+       margin-right: 0;
+   }
+
+   #upcoming-events, .line
+   {
+       width: 100%;
+       display: block;
+       text-align: center;
+   }
+   #news
+   {
+       padding-top: 20px;
+       text-align: center;
+       width: 80%;
+       margin: 0 auto;
+   }
+   .projects,  .project-div
+   {
+       width: 100%;
+   }
+
+   .project-div
+   {
+       margin-top: 10px;
+   }
+  
+   #mission-projects
+   {
+       width: 100%;
+       margin: 0 auto;
+       min-width: 420px;
+       text-align: center;
+       padding-bottom: 20px;
+   }
+   #gallery
+   {
+       width: 100%;
+   }
+   #image-container
+   {
+       display: block;
+       width: 100%;
+   }
+
+   .images
+   {
+       width: 80%;
+       display: block;
+       height: 250px;
+       margin: 0 auto;
+       margin-top: 70px;
+   }
+   .images:hover
+   {
+       opacity: 0.5;
+   }
+
+   .images:hover .fade
+{
+    opacity: 0;
+}
+#location
+{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#useful-links
+{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#hr-line
+{
+    display: none;
+}
+
+#social-icons
+{
+    text-align: center;
+    width: 100%;
+}
+#select
+{
+    width: 100%;
+} 
+
+}
+
+
+@media screen and (max-width:360px)
+{
+html,body{
+    overflow-x: hidden;
+}
+
+    #main-nav
+    {
+        display: none;
+    }
+    ul li
+    {
+        display: block;
+        text-align: left;
+        max-width: 100%;
+        min-width: 340px;
+    }
+    .services
+    {
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+    #service-heading
+    {
+        font-size: 7.5vw;
+    }
+
+    #sadkah-service, #welfare-service, #dastarkhawan-service, #roplant-service, #education-service, #medical-service
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+   #dastarkhawan-service
+   {
+    padding: 40px 100px 40px 80px;
+   }
+   #roplant-service
+   {
+    padding: 40px 107px 40px 100px
+   }
+   #sadkah-service
+   {
+    padding: 40px 70px 40px 70px;
+   }
+   #medical-service, #education-service
+   {
+
+       margin-right: 0;
+   }
+
+   #upcoming-events, .line
+   {
+       width: 100%;
+       display: block;
+       text-align: center;
+   }
+   #news
+   {
+       padding-top: 20px;
+       text-align: center;
+       width: 80%;
+       margin: 0 auto;
+   }
+   .projects
+   {
+       width: 100%;
+   }
+   .project-div
+   {
+       width: 80%;
+   }
+
+   .project-div
+   {
+       margin-top: 10px;
+   }
+  
+   #mission-projects
+   {
+       width: 100%;
+       margin: 0 auto;
+       min-width: 420px;
+       text-align: center;
+       padding-bottom: 20px;
+   }
+   #gallery
+   {
+       width: 100%;
+   }
+   #image-container
+   {
+       display: block;
+       width: 100%;
+   }
+
+   .images
+   {
+       width: 80%;
+       display: block;
+       height: 250px;
+       margin: 0 auto;
+   }
+   .images:hover
+   {
+       opacity: 0.5;
+   }
+
+   .images:hover .fade
+{
+    opacity: 0;
+}
+#location
+{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#useful-links
+{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#hr-line
+{
+    display: none;
+}
+
+#social-icons
+{
+    text-align: center;
+    width: 100%;
+}
+#select
+{
+    width: 100%;
+} 
+
+
+.hepatits
+{
+    padding-right: 150px;
+}
+
+.housing
+{
+    padding-right: 85px;
+}
+
+.it
+{
+    padding-right: 135px;
+}
+.tharparkar
+{
+    padding-right: 125px;
+}
+
+#mission-projects-heading
+{
+    font-size: 7.5vw;
+    width: 80%;
+}
+#intro-heading
+{
+    font-size: 10vw;
+}
+}
