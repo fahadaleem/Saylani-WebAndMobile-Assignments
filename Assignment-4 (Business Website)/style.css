@@ -1,0 +1,751 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+#header
+{
+    background-color: #192a56;
+}
+#electronics
+{
+    font-size: 50px;
+    position: relative;
+    left: -10px;
+    color:#bdbdbe;
+    font-family: 'Comfortaa', cursive;
+}
+
+#tagline
+{
+    font-size: 24px;
+    position: relative;
+    top: 35px;
+    font-family: 'Comfortaa', cursive;
+    color:white;
+}
+
+#company-name
+{
+    color:white;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+ul
+{
+    margin-top: -8px;
+}
+
+.nav-link
+{
+    color:black !important;
+}
+
+.active a
+{
+    background-color: #192a56 !important;
+    color:white !important;
+}
+ul li a:hover
+{
+    background-color: #192a56 !important;
+    color:white !important;
+}
+
+ul li a:active{
+    background-color: #192a56 !important;
+    color:white !important;
+}
+
+.active .dropdown-menu a:hover
+{
+    background-color: #192a56 !important;
+    color:white !important;
+
+}
+
+
+.navbar-btn
+{
+    border:1px solid #192a56 !important;
+    color: #192a56 !important;
+}
+
+.navbar-btn:hover
+{
+    background-color: #192a56;
+    color:white !important;
+}
+
+
+.carousel-caption
+{
+    padding-bottom: 170px;
+    padding-right: 200px;
+}
+
+.carousel
+{
+    margin-top: -8px;
+}
+
+.slider-images
+{
+    height: 550px;
+    width: 100%;
+}
+
+.jumbotron
+{
+    background-color: #192a56;
+    color:white;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.buynow-btn
+{
+    border: 1px solid white;
+    color:white;
+    position: relative;
+    top: -5px;
+    right: 50px;
+}
+
+.buynow-btn:hover
+{
+    background-color: white;
+    color:black;
+}
+
+.display-headings
+{
+    color:#192a56;
+}
+
+hr
+{
+    background-color: #192a56;
+}
+
+.service-section
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.service-icon-images
+{
+    width: 150px;
+    height:150px;
+}
+.service-icon
+{
+    border: 2px solid #192a56;
+    height: 200px;
+    width: 200px;
+    z-index: 10;
+    position: relative;
+    padding: 10px;
+    background-color: white;;
+}
+
+
+.service-body
+{
+    border: 1px solid #c6c6c6;
+    margin-top: -120px;
+    padding-top: 8rem;
+}
+
+
+
+.service-heading
+{
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+#fixed-bg
+{
+    background: url("images/attachemenetimage4.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-color: #192a56;
+    background-attachment: fixed;
+}
+
+.overlay
+{
+    position: relative;
+    background-color: rgba(25, 42, 86, 0.75);
+    height: 100%;
+    width: 100%;
+}
+
+.buynow-product
+{
+    color:#192a56;
+}
+
+.buynow-product:hover
+{
+    color:white !important;
+    text-decoration: none;
+}
+
+#product-section
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.product-logos
+{
+    width: 100%;
+}
+
+.unset-images
+{
+    margin-top: 60px;
+}
+
+.toshiba-logo
+{
+    margin-top: 50px;
+}
+
+.bttn-lg
+{
+    width: 30%;
+    color: #192a56 !important;
+    border-color: #192a56 !important;
+}
+
+.bttn-lg:hover
+{
+    color:white !important;
+    background-color: #192a56 !important;
+}
+
+    
+.bttn-unite.bttn-primary:before
+{
+    background-color: #192a56 !important;
+}
+
+.bttn-unite.bttn-primary::after
+{
+    background-color: #3a4b75 !important;
+}
+
+
+#blog-section
+{
+    background-color: #192a56;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#blog-section hr
+{
+    background-color: white !important;
+}
+
+.card-title a
+{
+    color:#192a56;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.card-body .bttn-lg
+{
+    width: 10%;
+    background-color: #c6c6c6;
+}
+
+.readmore-btn
+{
+    background-color: white;
+    border: none;
+    color: #192a56;
+    border: 2px solid #192a56;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.readmore-btn:hover
+{
+    background-color: #192a56;
+    border: none;
+    color: white !important;
+    border: 2px solid #192a56;
+    text-decoration: none;
+}
+
+.card-columns
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.post-date
+{
+    background-color: #192a56;
+   position: absolute;
+}
+
+.carousel-control-prev, .carousel-control-next
+{
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control-prev
+{
+    visibility: visible;
+}
+
+.carousel:hover .carousel-control-next
+{
+    visibility: visible;
+}
+
+#about-section
+{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #192a56;
+    color: white !important;
+    padding-bottom: 40px;
+}
+
+.overlay-white
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100%;
+    position: relative;
+}
+
+#about-section p{
+    font-size: 17px;
+}
+
+
+
+
+#about-btn:hover a
+{
+    color:white !important;
+}
+
+footer
+{
+    background-color: #192a56;
+    padding-bottom: 20px;
+}
+
+#electronics-about
+{
+    
+    font-size: 100px;
+    position: relative;
+    left: -10px;
+    color:#bdbdbe;
+    font-family: 'Comfortaa', cursive;
+}
+
+.company-name-in-about
+{
+    padding-top: 120px !important;
+}
+
+#left
+{
+    border-left: 1px solid white;
+    text-align: left;
+}
+#about-body
+{
+    margin-top: 60px;
+}
+
+#email-input
+{
+    background-color: white;
+    width: 70%;
+    border: none;
+    font-size: 22px;
+    border: 2px solid #c6c6c6;
+    height: 55px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-right: 130px !important;
+}
+
+#email-input::placeholder
+{
+    color:#c6c6c6;
+}
+
+#subscribe-btn
+{
+    background-color: #192a56;
+    border: none;
+    color:white;
+    font-size: 19px;
+    position: relative;
+    left: -120px;
+    top:-2px;
+}
+
+
+.icons
+{
+    font-size: 32px !important;
+    color:white;
+    background-color: #192a56;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.contacts
+{
+    font-size: 22px;
+}
+
+#email
+{
+    font-size: 19px;
+}
+
+.useful-link
+{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+#footer-links
+{
+    list-style: none;
+}
+
+#footer-links li a
+{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+}
+
+#footer-links li a:hover
+{
+    color: #c6c6c6 !important;
+}
+
+#end-section
+{
+    background-color: white;
+    padding-bottom: 0 !important;
+}
+
+body,html
+{
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width:768px)
+{
+    /*Media Query of HomePage */
+    #header
+    {
+        padding-bottom: 60px !important;
+    }
+    .carousel
+    {
+        margin-top: 3px !important;
+        height: 250px;
+    }   
+    .slider-images
+    {
+        height: 300px;
+    }
+    .jumbotron
+    {
+        margin-top: 45px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 180px;
+        display: block;
+    }
+    .buynow-btn
+    {
+        display: block;
+        width: 80%;
+    }
+    .product-logos
+    {
+        height: 250px;
+        width: 70%;
+    }   
+    
+    .bttn-lg
+    {
+        width: 80%;
+    }
+    #email-input
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+
+   
+
+    #subscribe-btn
+    {
+       width: 80%;
+       margin: 0 auto;
+       margin-top: 20px;
+      position: static;
+      border-radius: 5px;
+    }
+    .company-name-in-about
+    {
+        padding-top: 20px !important;
+        padding-bottom: 80px;
+    }
+    #left
+    {
+        border: none;
+        text-align: center;
+    }
+    footer
+    {
+        text-align: center;
+    }
+    .footer-hr
+    {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    /*Media Query of Products Page */
+    #price
+    {
+        font-size: 16px !important;
+    }
+    .sort
+    {
+        float:none !important;
+        margin-top: 3px;
+    }
+    .sort-options
+    {
+        margin-left: 35px;;
+    }
+    /*Media Query of Blog Page */
+    .companyname-blog
+    {
+        font-size: 60px !important; 
+        padding-top: 150px !important;
+    }
+    /*Media Query of contact Page */
+    .office-location-heading
+    {
+        font-size: 40px;
+    }
+
+    .contact-header-heading
+    {
+        font-size: 38px;
+    }
+
+
+    .order-form
+    {
+        padding: 20px !important;
+        min-width: 480px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+   
+    /*Media Query of HomePage */
+    #header
+    {
+        padding-bottom: 60px !important;
+    }
+    .carousel
+    {
+        margin-top: 3px !important;
+        height: 250px;
+    }   
+    .slider-images
+    {
+        height: 300px;
+    }
+    .jumbotron
+    {
+        margin-top: 45px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 180px;
+        display: block;
+    }
+
+    .jumbotron > .px-4>.pl-4
+    {
+        padding: 0 !important;
+        font-size: 18px;
+    }
+    .buynow-btn
+    {
+        right: 30px;
+    }
+    .product-logos
+    {
+        height: 250px;
+        width: 70%;
+    }   
+    
+    .display-4
+    {
+        font-size: 2.2rem;
+    }
+    .bttn-lg
+    {
+        width: 80%;
+    }
+    #email-input
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+
+   
+
+    #subscribe-btn
+    {
+       width: 80%;
+       margin: 0 auto;
+       margin-top: 20px;
+      position: static;
+      border-radius: 5px;
+    }
+    .company-name-in-about
+    {
+        padding-top: 20px !important;
+        padding-bottom: 80px;
+        font-size: 3.5rem;
+    }
+    .company-name-in-about>span
+    {
+        font-size: 3.5rem !important;
+    }
+    #left
+    {
+        border: none;
+        text-align: center;
+    }
+    footer
+    {
+        text-align: center;
+    }
+    .footer-hr
+    {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    /*Media Query of Products Page */
+    #price
+    {
+        font-size: 12px !important;
+        width: 35%;
+    }
+    .sort
+    {
+        float:none !important;
+        margin-top: 3px;
+    }
+    .sort-options
+    {
+        margin-left: 35px;;
+    }
+    
+    .page-link
+    {
+        padding: 16px !important;
+    }
+        /*Media Query of Blog Page */
+    .companyname-blog
+    {
+        font-size: 2.9rem !important; 
+        padding-top: 150px !important;
+    }
+    .companyname-blog span
+    {
+        font-size: 2.9rem !important;
+    }
+    .overlay > hr
+    {
+        width: 30% !important;
+    }
+
+    .left
+    {
+        border: none !important;
+    }
+
+    /*Media Query of contact Page */
+    .office-location-heading
+    {
+        font-size: 40px;
+    }
+
+    .contact-header-heading
+    {
+        font-size: 38px;
+    }
+
+    /* media Query of service page */
+    .service-header > .contact-header-heading
+    {
+        font-size: 2rem;
+    }
+    .service-name
+    {
+        font-size: 1.6rem;
+    }
+
+    .ourTeam-section h2
+    {
+        font-size: 1.5rem;
+    }
+    .ourTeam-section p
+    {
+        font-size: 1rem;
+    }
+    .order-form
+    {
+        padding: 20px !important;
+        min-width: 360px !important;
+    }
+    .div2
+    {
+        display: block;
+        margin-left: -23px;
+        margin-top: 10px;
+    }
+}

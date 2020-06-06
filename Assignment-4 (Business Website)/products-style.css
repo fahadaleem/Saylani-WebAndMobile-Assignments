@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.active .dropdown-menu a{
+    background-color: white!important;
+    color:black !important; 
+}
+
+.card-images
+{
+    height: 250px;
+    width: 100%;
+}
+
+
+#product
+{
+    margin-top: 40px;
+}
+
+#price
+{
+    outline: none;
+    font-size: 20px;
+    background-color: #192a56;
+    color:white;
+    cursor: pointer;
+}
+
+.card-body
+{
+    background-color: white;
+    color:black;
+    border-top: 2px solid #c7c7c7;
+}
+
+.card-columns
+{
+    padding-top: 20px !important;
+    background-color: #192a56;
+}
+
+#section
+{
+    background-color: #192a56;
+    padding-top: 50px;
+    margin-top: 40px !important;
+}
+
+.cart-btn
+{
+    background-color: white !important;
+    color: #192a56 !important;
+    border: none;
+}
+
+
+.cart-btn:hover
+{
+    background-color: #c6c6c6!important;
+    color:white !important;
+}
+
+.page-link
+{
+    color:#192a56 !important;
+}
+
+.line-through
+{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.prices
+{
+    font-size: 24px;
+    color:tomato;
+}
+
+#hero
+{
+    background: url("images/blog-header.jpg");
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -8px;
+    z-index: 20;
+}
+
+.overlay
+{
+    padding-top: 6
+    0px !important;
+}
+
+.post-image
+{
+    height: 250px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.posts
+{
+   padding-top: 50px;
+}
+
+.left
+{
+    margin-top: 50px;
+    border-left: 1px solid #192a56;
+}
+
+.recent-post-image
+{
+    height: 80px;
+    width: 100px;
+}
+
+.categories-items
+{
+    list-style: none;
+}
+
+.categories-items li a:hover
+{
+    background-color: white !important;
+    color:black !important;
+    text-decoration: none;
+}
+
+.contact-header
+{
+    background:linear-gradient( rgba(25, 42, 86, 0.8) 100%, rgba(25, 42, 86, 0.8)100%),url("images/contact2.jpg");
+    margin-top: -8px;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    padding-top: 140px;
+}
+
+.form
+{
+    padding: 45px;
+}
+
+
+.input-fields
+{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #192a56;
+    padding: 0 10px 10px 0;
+    outline: none;
+}
+
+.message-area
+{
+    width: 100%;
+    min-height: 150px;
+    border: 2px solid #192a56;
+    outline: none;
+    padding: 10px;
+}
+
+.contact-left
+{
+    background-color: #192a56;
+    color:white;
+    padding: 60px 0px 45px 15px;
+}
+
+
+.contact-list
+{
+    list-style: none;
+    padding-top: 40px;
+}
+
+
+.contact-list > li
+{
+    font-size: 20px;
+}
+
+
+.online-support
+{
+    background-color: white;
+    margin-top: -230px;
+}
+
+
+.map
+{
+    height: 450px;
+    width: 80%;
+}
+
+.about-header
+{
+    background:linear-gradient( rgba(25, 42, 86, 0.8) 100%, rgba(25, 42, 86, 0.8)100%),url("images/aboutus/header.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: -8px;
+}
+
+.certificates
+{
+    height: 100%;
+}
+
+.cerficates-section
+{
+    background-color: white;
+    color:black;
+}
+.service-header
+{
+    background:linear-gradient( rgba(25, 42, 86, 0.8) 100%, rgba(25, 42, 86, 0.8)100%),url("images/services/serviceHeader1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: -8px;
+    height: 550px;
+    padding-top: 150px;
+
+}
+
+.service-image
+{
+    width: 100%;
+    height: 100%;
+}
+
+.getservice-btn
+{
+    background-color: #192a56 !important;
+    border-color: #192a56;
+}
+
+.getservice-btn:hover
+{
+    background-color: rgba(25, 42, 86, 0.2) !important;
+    color:#192a56 !important;
+}
+
+
+.ourTeam-section
+{
+    
+    margin-bottom: 30px;
+    border-radius: 20px !important;
+    margin-top: 50px !important;
+    background-color: #192a56;
+    color:white;
+}
+
+.team-card
+{
+    background-color: transparent;
+    color:white;
+}
+
+.ourTeam-section > label
+{
+    background-color: white;
+    color:#192a56;
+    
+}
+
+.team-img
+{
+    height: 220px;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.order-form
+{
+    /* background-color: rgba(25, 42, 86, 0.8); */
+    background-color: #192a56;
+    color:white;
+    /* border: 10px solid #4890D1;   */
+    min-width: 450px;
+    margin: 0 auto;
+    padding: 100px;
+    margin-bottom: 40px;
+    max-width: 70%;
+}
+
+.order-form-inputs
+{
+    background-color: transparent !important;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #4890D1;
+    width: 100%;
+    color:white;
+}
+
+.order-form-inputs::placeholder, #project-desc::placeholder
+{
+    color:#4890D1;
+}
+
+.div2
+{
+    margin-top: 10px;
+    margin-left: -23px;
+}
+
+.service-options 
+{
+    background-color: #192a56;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    color:white;
+    border: 2px solid #4890D1;
+    padding: 10px;
+}
+.service-options::after
+{
+    cursor: pointer;
+    height: 20px;
+}
+
+
+#project-desc
+{
+    min-height: 200px;
+    width: 100%;
+    max-height: 400px;
+    background-color: transparent;
+    border: 2px solid #4890D1;
+    color:white;
+}
+
+
+
+.order-submit-btn:hover i
+{
+    transform: translate(10px,0);
+    transition: 0.7s;
+}
