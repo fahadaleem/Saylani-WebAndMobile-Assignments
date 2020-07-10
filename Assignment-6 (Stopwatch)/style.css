@@ -1,0 +1,100 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+
+body
+{
+    background-color: cornflowerblue;
+}
+
+.container
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 100px 40px 100px;
+    border-radius: 200px;
+ 
+}
+
+.number
+{
+    font-size: 3.5rem;
+}
+
+button
+{
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#start
+{
+    background-color: rgb(255, 81, 0);
+    color:white;
+}
+
+#start:hover
+{
+    background-color: rgb(194, 78, 24);
+
+}
+
+#stop
+{
+    background-color: rgb(38, 168, 38);
+    color:white;
+}
+#stop:hover
+{
+    background-color: rgb(31, 121, 31);
+
+}
+#reset
+{
+    background-color: rgb(0, 60, 255);
+    color: white;
+}
+#reset:hover
+{
+    background-color: rgb(35, 70, 184);
+
+}
+
+#record
+{
+    background-color:tomato ;
+    color:white;
+}
+
+#record:hover
+{
+    background-color:rgb(216, 63, 35) ;
+
+}
+
+h1
+{
+text-align: center;
+padding-bottom: 20px;
+}
+
+.record-container
+{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    height: 220px;
+    overflow-y: scroll;
+}
