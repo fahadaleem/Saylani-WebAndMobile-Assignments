@@ -34,19 +34,12 @@ function timer(){
         }
     }
 }
-
-
-
-
-
 var interval, stopCheck;
 //Start Button
 buttons[0].addEventListener("click", function(){
     interval = setInterval(timer,10);
    stopCheck=false;
 })
-
-
 
 //Stop Button
 buttons[1].addEventListener("click", function(){
