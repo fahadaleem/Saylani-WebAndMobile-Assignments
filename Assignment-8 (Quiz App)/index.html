@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-------CSS Stylesheet----------->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+      <div class="bg-dark">
+ <nav class="navbar navbar-expand-sm navbar-light bg-transparent container">
+     <a class="navbar-brand" href="#">Quiz App</a>
+     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+         aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="collapsibleNavId">
+         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+             <li class="nav-item">
+                 <a class="nav-link " id="start-quiz">Start Quiz</a>
+             </li>
+             <li class="nav-item">
+                <a href="" class="nav-link">About</a>
+            </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="" id="login-link">Login</a>
+             </li>
+            <li class="nav-item">
+                <a href="" class="nav-link active" id="signup-link">Sign Up</a>
+            </li>
+         </ul>
+     </div>
+ </nav>
+</div>
+
+
+<!--------------Create an Account Form--------->
+<section class="container">
+    <form action="" class="shadow rounded " id="signup-form">
+        <h1 class="text-center" id="create-heading">Create An Account</h1>
+        <hr>
+        <div>
+            <label for="">First Name</label>
+            <input type="text" id="first-name" class="input-field rounded">
+        </div>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" id="last-name" class="input-field rounded">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" id="email" class="input-field rounded">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" id="password" class="input-field rounded">
+        </div>
+        <div>
+            <button id="signup-btn" class="rounded">Sign Up</button>
+        </div>
+    </form>
+</section>
+
+
+<!---------------Login Form------------>
+<section class="container">
+    <form action="" class="shadow rounded login-form hide-form">
+        <h1 class="text-center" id="login-heading">Login Your Account</h1>
+        <hr>
+        <div>
+            <label for="">Email</label>
+            <input type="email" id="login-email" class="input-field rounded">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" id="login-password" class="input-field rounded">
+        </div>
+        <div>
+            <button id="login-btn" class="rounded">Login</button>
+        </div>
+    </form>
+</section>
+
+
+<!-------------------Welcome Window---------->
+<section id="welcome-window" class="container mt-4 hide-form">
+    <div class="">
+        <h1 class="text-center">Welcome to Quiz App</h1>
+        <hr width="50%">
+        <h3>Select the topic that you want to take the quiz?</h3>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input topic-check" name="topics"  value="checkedValue" > Javascript</label>
+                  <p class="topic-text">You have to learnt the following topics before attempt the quiz!
+                    <ul class="topic-list">
+                        <li>Variables</li>
+                        <li>Data types</li>
+                        <li>Comparison operator</li>
+                        <li>Mathamatical operations</li>
+                        <li>Loops</li>
+                        <li>Arrays</li>
+                    </ul>
+                    <p class="topic-text">You can take the reference of all these topics from <a href="https://www.w3schools.com/js/default.asp" target="_black">Javascript from W3Schools.</a></p>
+                </p>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input topic-check" name="topics" value="checkedValue">
+                      CSS3
+                    </label>
+                    <p class="topic-text">You have to learnt the following topics before attempt the quiz!
+                        <ul class="topic-list">
+                            <li>Types of declaring CSS</li>
+                            <li>CSS Selectors</li>
+                            <li>Text Properties</li>
+                            <li>Image properties</li>
+                            <li>Margin/Padding</li>
+                            <li>Link Styling</li>
+                            <li>Display Property</li>
+                            <li>Flex</li>
+                        </ul>
+                    <p class="topic-text">You can take the reference of all these topics from <a href="https://www.w3schools.com/css/default.asp" target="_black">CSS from W3Schools.</a></p>
+                      </p>
+                  </div>
+          
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input topic-check" name="topics" value="checkedValue">
+                      HTML5
+                    </label>
+                    <p class="topic-text">You have to learnt the following topics before attempt the quiz!
+                        <ul class="topic-list">
+                            <li>What is HTML?</li>
+                            <li>HTML Elements</li>
+                            <li>HTML Attributes</li>
+                            <li>HTML Paragraphs</li>
+                            <li>HTML Headings</li>
+                            <li>HTML Images</li>
+                            <li>HTML Tables</li>
+                            <li>HTML Lists Ordered/ Unordered</li>
+                            <li>HTML Comments</li>
+                        </ul>
+                    <p class="topic-text">You can take the reference of all these topics from <a href="https://www.w3schools.com/html/default.asp" target="_black">HTML from W3Schools.</a></p>
+                      </p>
+                  </div>
+                  <p>There are 20 mcqs questions in each topic. You will get 2 marks for each correct answers.The maximum score is 40. You have 40 minutes to take this quiz. At the end of the quiz you will get your result card.
+                      <br><br><em>NOTE: You will not get back the question once it is submitted, So check your answers carefully!</em> </p>
+            <button type="button" name="" id="start-quiz-btn" class="btn btn-primary btn-lg float-right mb-4">Start Quiz</button>
+        
+    </div>
+</section>
+
+
+<!--------------------------------------------------------->
+
+
+<!-----------Loader-->
+<div class="container text-center mt-4 pt-4 hide-form" id="loader-window">
+    <h2 id="loader-heading">Be patience! Questions is loading...</h2>
+    <hr width="50%">
+    <div class="loader"></div>
+</div>
+
+<!-----------------Quiz Window Here----------->
+<section id="quiz-window" class="container mt-4 hide-form">
+    <h1 class="text-center" id="topic-name">%type% Quiz!</h1>
+    <hr width="50%">
+    <p><label for="" id="question-id">1</label>. <span for="" id="question"> Question</span></p>
+    
+    <div>
+        <div class="row">
+            <div class="col-lg-6">
+                <button type="button" class="btn btn-primary pt-2 pb-2 option-btn margin-on-mob">Option 1</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" class="btn btn-primary pt-2 pb-2 option-btn margin-on-mob">Option 2</button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <button type="button" class="btn btn-primary pt-2 pb-2 option-btn">Option 3</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" class="btn btn-primary pt-2 pb-2 option-btn margin-on-mob">Option 4</button>
+            </div>
+        </div>
+        <label for="time" class="float-left mt-4" id="time">Time:  <span id="min">min </span>: <span id="sec">sec</span></label>
+        <button type="button" class="btn btn-primary float-right mt-4 px-4" id="next-btn">Next</button>
+
+    </div>
+</section>
+
+
+<!-------------Result card------->
+ 
+<section class="container mt-4 text-center p-3 hide-form" id="result-window">
+    <h1>Result Card</h1>
+    <img src="" alt="" id="result-img">
+    <h2>Username: <span id="user-name">Fahad Aleem</span></h2>
+    <h2>Your correct answers are : <span id="correc-ans">18</span></h2>
+    <h2><span id="remarks">You did great!</span> you got <span id="percentage">80%</span> in <span id="quiz-result-type">JavaScript</span> quiz.</h2>
+    <h2>Your total score is : <span id="score">36</span></h2>
+    <button type="button" class="btn btn-primary btn-lg" id="result-btn">Go to homepage</button>
+
+</section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <!-------JS File--------->
+    <script src="app.js"></script>
+
+</body>
+</html>
